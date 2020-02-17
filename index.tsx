@@ -100,14 +100,14 @@ export default class SVGAPlayer extends React.Component<
         eventListeners.onFrame = (event: {
           nativeEvent: { value: number }
         }) => {
-          this.props.onFrame(event.nativeEvent.value)
+          this.props.onFrame!(event.nativeEvent.value)
         }
       }
       if (typeof this.props.onPercentage === 'function') {
         eventListeners.onPercentage = (event: {
           nativeEvent: { value: number }
         }) => {
-          this.props.onPercentage(event.nativeEvent.value)
+          this.props.onPercentage!(event.nativeEvent.value)
         }
       }
     }
