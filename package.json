@@ -5,6 +5,7 @@
   "description": "svga player for react native",
   "main": "index.js",
   "scripts": {
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,10 @@
   "devDependencies": {
     "react": "^16.9.0",
     "react-native": "^0.61.5"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.19",
+    "@types/react-native": "^0.61.15",
+    "typescript": "^3.7.5"
   }
 }
