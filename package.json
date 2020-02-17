@@ -5,7 +5,8 @@
   "description": "svga player for react native",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "postpublish": "tsc"
   },
   "repository": {
     "type": "git",
