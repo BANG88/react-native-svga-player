@@ -1,3 +1,8 @@
 example
 index.tsx
 tsconfig.json
+android/.idea
+android/build
+android/local.properties
+android/android.iml
+android/.gradle
