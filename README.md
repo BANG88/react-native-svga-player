@@ -19,3 +19,5 @@ import RNSvgaPlayer from 'react-native-svga-player'
   source={`https://raw.githubusercontent.com/yyued/SVGAPlayer-iOS/master/SVGAPlayer/Samples/Goddess.svga`}
 />
 ```
+
+https://user-images.githubusercontent.com/433259/119592873-de64d580-be0b-11eb-94df-59a3dd2b1204.mp4
