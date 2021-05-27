@@ -1,7 +1,7 @@
 {
   "name": "react-native-svga-player",
   "title": "React Native Svga Player",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "svga player for react native",
   "main": "index.js",
   "scripts": {

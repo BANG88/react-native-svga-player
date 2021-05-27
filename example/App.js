@@ -15,7 +15,7 @@ export default class App extends Component {
 		];
 		return (
 			<ScrollView showsVerticalScrollIndicator={false}>
-				<Text style={styles.welcome}>☆RNSvgaPlayer example☆</Text>
+				<Text style={styles.welcome}>Svga</Text>
 				<View style={styles.container}>
 					{files.map(f => (
 						<View
