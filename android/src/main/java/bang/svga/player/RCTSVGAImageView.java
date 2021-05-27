@@ -11,12 +11,10 @@ import com.opensource.svgaplayer.SVGACallback;
 import com.opensource.svgaplayer.SVGAImageView;
 
 public class RCTSVGAImageView extends SVGAImageView {
-    private final SVGACallback callback;
     protected String currentState;
-
     public RCTSVGAImageView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        callback = new SVGACallback() {
+        this.setCallback(new SVGACallback() {
 
             @Override
             public void onStep(int frame, double percentage) {
@@ -55,7 +53,7 @@ public class RCTSVGAImageView extends SVGAImageView {
                 reactContext.getJSModule(RCTEventEmitter.class).
                         receiveEvent(getId(), "topChange", map);
             }
-        };
+        });
     }
 
 }
