@@ -75,7 +75,7 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
-	implementation 'com.github.yyued:SVGAPlayer-Android:2.5.3'
+	implementation 'com.github.yyued:SVGAPlayer-Android:2.6.1'
 
 }
 
